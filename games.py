@@ -18,3 +18,12 @@ Player = pygame.transform.scale(Player, (80, 80))
 # Enemy
 Enemy = pygame.image.load("jjaemu.png")
 Enemy = pygame.transform.scale(Enemy, (80, 80))
+
+# Bullet
+Bullet = pygame.image.load("")
+Bullet = pygame.transform.scale(Bullet, (10, 50))
+
+score = 0
+font = pygame.fpont.SysFont("Arial", 30)
+
+clock = pygame.time.clock()
