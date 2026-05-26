@@ -99,4 +99,4 @@ while True:
         screen.blit(score_text, (10, 10))
 
         pygame.display.update()
-        clock.tick(5 0)
+        clock.tick(50)
